@@ -64,7 +64,7 @@ jobs:
           find . -type f \( -name "*.pyc" -o -name "*.pyo" \) -delete
           rm -rf .pytest_cache .mypy_cache
 
-      - name: Commit updated state
+            - name: Commit updated state
         run: |
           BRANCH="${{ github.event.repository.default_branch }}"
 
@@ -79,5 +79,10 @@ jobs:
           fi
 
           git commit -m "chore: update scraper state"
+
+          # Stash regenerated output files before rebasing.
+          git stash push --include-untracked \
+            -m "temporary scraper outputs"
+
           git pull --rebase origin "$BRANCH"
           git push origin "HEAD:$BRANCH"
