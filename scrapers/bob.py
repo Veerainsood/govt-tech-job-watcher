@@ -263,7 +263,7 @@ def scrape_bob(kw: dict) -> dict:
         if not detail_url:
             continue
 
-        breakpoint()
+        # breakpoint()
         result["stats"]["records_with_apply_url"] += 1
 
         job = parse_bob_job(item, kw)
