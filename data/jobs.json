@@ -1,0 +1,142 @@
+{
+  "updated_at": "2026-07-06T07:36:41.358014+00:00",
+  "count": 4,
+  "good_fit_count": 0,
+  "jobs": [
+    {
+      "id": "92491d759a388fb5",
+      "source": "Bank of Baroda",
+      "title": "RECRUITMENT OF CHIEF TECHNOLOGY OFFICER (CTO) ON FIXED TERM EMPLOYMENT ON CONTRACT BASIS IN BANK OF BARODA: BOB/HRM/REC/ADVT/2026/13",
+      "function": "Human Resources Management",
+      "location": "Mumbai",
+      "experience": "As per Detailed Advertisement",
+      "vacancies": "01",
+      "advertisement_no": "BOB/HRM/REC/ADVT/2026/13",
+      "start_date": "2026-07-02 23:30:00",
+      "last_date": "2026-07-23 23:30:00",
+      "latest_update": "",
+      "apply_url": "https://bankappsweb.bankofbaroda.bank.in/CTO/",
+      "advertisement_url": "https://bankofbaroda.bank.in/-/media/Project/BOB/CountryWebsites/India/Career/2026/26-07/Advertisement-CTO-03-16.pdf",
+      "url": "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-chief-technology-officer-cto-on-fixed-term-employment-23-07",
+      "fit": "senior/not-fit",
+      "include_hits": [
+        "system",
+        "systems",
+        "technology",
+        "cybersecurity",
+        "cloud",
+        "network",
+        "ai"
+      ],
+      "exclude_hits": [
+        "law",
+        "medical officer",
+        "ca",
+        "marketing"
+      ],
+      "senior_hits": [
+        "head",
+        "senior management"
+      ]
+    },
+    {
+      "id": "2fbf8eab962a3fc2",
+      "source": "Bank of Baroda",
+      "title": "RECRUITMENT OF PROFESSIONALS ON FIXED TERM EMPLOYMENT BASIS IN IT DEPARTMENT IN BANK OF BARODA: BOB/HRM/REC/ADVT/2026/12",
+      "function": "Human Resources Management",
+      "location": "",
+      "experience": "As per Detailed Advertisement",
+      "vacancies": "5",
+      "advertisement_no": "BOB/HRM/REC/ADVT/2026/12",
+      "start_date": "2026-06-20 00:00:00",
+      "last_date": "2026-07-10 23:30:00",
+      "latest_update": "",
+      "apply_url": "https://bankappsweb.bankofbaroda.bank.in/BOBRECRUITMENT_JAN_ITS2608632/",
+      "advertisement_url": "https://bankofbaroda.bank.in/-/media/Project/BOB/CountryWebsites/India/Career/2026/26-06/Detailed-Advertisement-19-30.pdf",
+      "url": "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-of-professionals-on-fixed-term-employment-basis-in-it-department-10-07",
+      "fit": "senior/not-fit",
+      "include_hits": [
+        "system",
+        "systems",
+        "cloud",
+        "ai"
+      ],
+      "exclude_hits": [
+        "law",
+        "medical officer",
+        "ca",
+        "marketing"
+      ],
+      "senior_hits": [
+        "head"
+      ]
+    },
+    {
+      "id": "9879f9ae0f0398f8",
+      "source": "Bank of Baroda",
+      "title": "RECRUITMENT FOR CORPORATE AND INSTITUTIONAL CREDIT (C & IC) DEPARTMENT ON CONTRACTUAL BASIS IN BANK OF BARODA: BOB/HRM/REC/ADVT/2026/11",
+      "function": "Human Resources Management",
+      "location": "",
+      "experience": "As per Detailed Advertisement",
+      "vacancies": "65",
+      "advertisement_no": "BOB/HRM/REC/ADVT/2026/11",
+      "start_date": "2026-06-16 00:00:00",
+      "last_date": "2026-07-06 23:30:00",
+      "latest_update": "",
+      "apply_url": "https://bankappsweb.bankofbaroda.bank.in/BOBRECRUITMENT_JUN_CICJ2610275/",
+      "advertisement_url": "https://bankofbaroda.bank.in/-/media/Project/BOB/CountryWebsites/India/Career/2026/26-06/Advertisement-17-14.pdf",
+      "url": "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-for-corporate-and-institutional-credit-c-ic-department-on-contractual-basis-in-bob-06-07",
+      "fit": "senior/not-fit",
+      "include_hits": [
+        "system",
+        "ai"
+      ],
+      "exclude_hits": [
+        "law",
+        "medical officer",
+        "ca",
+        "chartered accountant",
+        "relationship manager",
+        "sales",
+        "marketing"
+      ],
+      "senior_hits": [
+        "8 years",
+        "vice president",
+        "head"
+      ]
+    },
+    {
+      "id": "1312e6b50f15b7a2",
+      "source": "Bank of Baroda",
+      "title": "RECRUITMENT FOR CORPORATE AND INSTITUTIONAL CREDIT (C & IC) DEPARTMENT ON REGULAR BASIS IN BANK OF BARODA: BOB/HRM/REC/ADVT/2026/10",
+      "function": "Human Resources Management",
+      "location": "",
+      "experience": "As per Detailed Advertisement",
+      "vacancies": "86",
+      "advertisement_no": "BOB/HRM/REC/ADVT/2026/10",
+      "start_date": "2026-06-16 00:00:00",
+      "last_date": "2026-07-06 23:30:00",
+      "latest_update": "",
+      "apply_url": "https://bankappsweb.bankofbaroda.bank.in/BOBRECRUITMENT_JUN_CIC2507621/",
+      "advertisement_url": "https://bankofbaroda.bank.in/-/media/Project/BOB/CountryWebsites/India/Career/2026/26-06/Advertisement-16-22.pdf",
+      "url": "https://bankofbaroda.bank.in/career/current-opportunities/recruitment-for-corporate-and-institutional-credit-c-ic-department-on-regular-basis-in-bob-06-07",
+      "fit": "senior/not-fit",
+      "include_hits": [
+        "system",
+        "ai"
+      ],
+      "exclude_hits": [
+        "law",
+        "medical officer",
+        "ca",
+        "relationship manager",
+        "marketing"
+      ],
+      "senior_hits": [
+        "head",
+        "chief manager"
+      ]
+    }
+  ]
+}

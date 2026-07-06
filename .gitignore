@@ -1,0 +1,11 @@
+.venv/
+.env
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+data/jobs.json
+data/errors.json
+data/scraper_results.json

@@ -1,0 +1,65 @@
+name: Bank Tech Job Watcher
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Clear temporary cache and generated output
+        run: |
+          find . -type d -name "__pycache__" -prune -exec rm -rf {} +
+          find . -type f \( -name "*.pyc" -o -name "*.pyo" \) -delete
+          rm -rf .pytest_cache .mypy_cache
+
+          rm -f data/jobs.json
+          rm -f data/errors.json
+          rm -f data/scraper_results.json
+
+      - name: Run scrapers
+        run: python -m scrapers.main
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Clear Python cache after execution
+        run: |
+          find . -type d -name "__pycache__" -prune -exec rm -rf {} +
+          find . -type f \( -name "*.pyc" -o -name "*.pyo" \) -delete
+          rm -rf .pytest_cache .mypy_cache
+
+      - name: Commit updated state
+        run: |
+          git config user.name "job-watcher-bot"
+          git config user.email "job-watcher-bot@users.noreply.github.com"
+
+          git add data/seen.json data/seen_errors.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update scraper state"
+            git push
+          else
+            echo "No state changes to commit"
+          fi

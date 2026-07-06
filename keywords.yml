@@ -1,0 +1,47 @@
+include:
+  - software
+  - system
+  - systems
+  - information technology
+  - technology
+  - computer science
+  - developer
+  - database
+  - cybersecurity
+  - cyber security
+  - cloud
+  - network
+  - data analyst
+  - data engineer
+  - ai
+  - machine learning
+  - assistant manager system
+  - deputy manager system
+
+exclude:
+  - law
+  - medical officer
+  - defence banking advisor
+  - circle defence banking advisor
+  - retired
+  - army
+  - navy
+  - air force
+  - ca
+  - chartered accountant
+  - economist
+  - relationship manager
+  - wealth
+  - sales
+  - marketing
+
+senior_markers:
+  - 8 years
+  - 10 years
+  - 12 years
+  - 15 years
+  - vice president
+  - deputy vice president
+  - head
+  - chief manager
+  - senior management
