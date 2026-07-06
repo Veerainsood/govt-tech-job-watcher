@@ -1,4 +1,5 @@
 # Bank Tech Job Watcher
+[![Bank Tech Job Watcher](https://github.com/Veerainsood/govt-tech-job-watcher/actions/workflows/workflow.yml/badge.svg?branch=main)](https://github.com/Veerainsood/govt-tech-job-watcher/actions/workflows/workflow.yml)
 
 Tracks bank/regulator career pages for technical openings and sends alerts.
 
