@@ -1,4 +1,5 @@
 [
   "Bank of Baroda::BOB careers data extraction failed: HTTPSConnectionPool(host='bankofbaroda.bank.in', port=443): Read timed out. (read timeout=30)",
+  "SBI::SBI careers page fetch failed: HTTPSConnectionPool(host='sbi.bank.in', port=443): Max retries exceeded with url: /web/careers/current-openings (Caused by NewConnectionError(\"HTTPSConnection(host='sbi.bank.in', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
   "scrape_bob::scrape_bob crashed: "
 ]
