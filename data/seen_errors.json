@@ -1,4 +1,5 @@
 [
+  "Bank of Baroda::BOB careers data extraction failed: HTTPSConnectionPool(host='bankofbaroda.bank.in', port=443): Max retries exceeded with url: /career/current-opportunities (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))",
   "Bank of Baroda::BOB careers data extraction failed: HTTPSConnectionPool(host='bankofbaroda.bank.in', port=443): Read timed out.",
   "Bank of Baroda::BOB careers data extraction failed: HTTPSConnectionPool(host='bankofbaroda.bank.in', port=443): Read timed out. (read timeout=30)",
   "Bank of Baroda::BOB careers data extraction failed: HTTPSConnectionPool(host='www.bankofbaroda.in', port=443): Max retries exceeded with url: /career/current-opportunities (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.bankofbaroda.in', port=443) at 0x7f2acd7fe550>, 'Connection to www.bankofbaroda.in timed out. (connect timeout=30)'))",
